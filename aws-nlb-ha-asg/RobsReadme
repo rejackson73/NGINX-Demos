@@ -1,0 +1,8 @@
+Unzip the NGINX certs adn put them in ~/.ssh/ngx-certs/ on the machine you are running packer from.
+I used environment variables for AWS  key ID and access key.  That way you can use the same environment for the packer and Terraform builds and not have to run through the scripts
+
+
+packer/packer build packer.json
+terraform/terraform init
+terraform/terraform plan
+terraform/terraform appy --auto-approve

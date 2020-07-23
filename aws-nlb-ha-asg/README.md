@@ -33,6 +33,7 @@ The instructions assume you have the following:
 3.  Set your AWS credentials in the Packer and Terraform scripts:
 
     1.  For Packer, set your credentials in the variables block in `packer/packer.json`:
+    REJ>>> Yeah, don't do this.  If you do, don't check back into github!
     ```
     "variables": {
       "home": "{{env `HOME`}}",

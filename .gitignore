@@ -21,3 +21,4 @@
 
 # Ignore Ansible retry files
 *.retry
+aws-nlb-ha-asg/terraform/.terraform.tfstate.lock.info
